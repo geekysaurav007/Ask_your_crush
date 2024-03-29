@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #f9f4f5; 
+    background: url("62624.jpg");
+}
+
+.container {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #56beff; /* Romantic color for the heading */
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color:#56beff; /* Romantic color for the buttons */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #56beff; 
+    cursor: pointer;
+}
+
+.message {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #56beff; /* Romantic color for the border */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    font-size: 24px;
+    color: #56beff; /* Romantic color for the popup text */
+}
+
+/* Add a smooth fade-in animation for the popup */
+.message.fade-in {
+    animation: moving 0.3s ease;
+}
+
+@keyframes moving {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
